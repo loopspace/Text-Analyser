@@ -1,0 +1,106 @@
+#main {
+    width: 50%;
+    margin-left: 25%;
+}
+
+#components {
+    width: 25%;
+    float: left;
+    background: #ccc;
+    border-radius: 5px;
+}
+
+#components h3 {
+    padding-left: 1ex;
+}
+
+#auxiliary {
+    width: 25%;
+    float: right;
+    background-color: #ccc;
+}
+
+#extra {
+    display: none;
+}
+
+#source {
+    width: 100%;
+    height: 20em;
+    margin: 1ex;
+    padding: 1ex;
+}
+
+#output {
+    width: 100%;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+#head {
+    list-style: none;
+}
+
+#actions {
+    padding: 0 0 0 1px;
+    margin: 1px 0 0 15px;
+    list-style: none;
+}
+
+#actions li {
+    display: block;
+    padding: 0 15px;
+}
+
+
+#actions li  {
+    border-left: 1px dotted black;
+    position: relative;
+}
+
+#actions > li  {
+    padding-bottom: 10px;
+}
+
+#actions li:before {
+    content: '';
+    width: 14px;
+    position: absolute;
+    border-bottom: 1px dotted black;
+    left: 0px;
+    top: 10px;
+}
+
+
+#actions li:last-child {
+   border-left:none;
+}
+
+#actions li:last-child:before {
+   border-left:1px dotted black;
+   height: 10px;
+   margin-top:-10px;
+}
+
+#run {
+    font-size: 120%;
+    border-radius: 5px;
+}
+
+.title {
+    font-variant-caps: small-caps;
+}
+
+.chapter {
+    font-style: italic;
+}
+
+.header {
+    font-weight: bold;
+    padding-right: 1ex;
+}
+
+.wordlength td:first-child {
+    text-align: right;
+    padding-right: 1ex;
+}
